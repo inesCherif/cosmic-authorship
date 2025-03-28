@@ -70,7 +70,10 @@ We don't support custom domains (yet). If you want to deploy your project under 
 
 
 
-
-
 https://github.com/user-attachments/assets/ccce5693-a0ce-4bd5-b1d3-74834f24f073
+
+## 📄 Project Report  
+For a detailed explanation of the project, methodology, and findings, refer to the full report:  
+📥 [Read the Report](https://docs.google.com/document/d/1faqSzgx9puFiAGUDFXggTbu3vo_tCQqTBxkZtmgApNk/edit?usp=sharing)
+
 
