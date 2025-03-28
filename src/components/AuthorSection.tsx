@@ -39,8 +39,7 @@ const AuthorSection: React.FC = () => {
               
               <p className="text-foreground/80 leading-relaxed">Her journey as a self-motivated learner has been marked by an ongoing commitment to improving her skills in coding, algorithm design, and practical applications, while also embracing the interdisciplinary nature of technology. Through her work, Ines seeks to bridge the gap between theory and real-world problem-solving, always striving for simplicity and clarity in her approach to complex challenges.</p>
               
-              <div className="border-l-4 border-cosmic-purple/50 pl-4 py-2 italic text-foreground/70">Knowledge is an infinite ocean, and the more you dive, the more you discover. As the Quran says:  
-عَلَّمَ ٱلْإِنسَـٰنَ مَا لَمْ يَعْلَمْ ٥ - </div>
+              <div className="border-l-4 border-cosmic-purple/50 pl-4 py-2 italic text-foreground/70">Knowledge is an infinite ocean, and the more you dive, the more you discover. As the Quran says:   عَلَّمَ ٱلْإِنسَـٰنَ مَا لَمْ يَعْلَمْ ٥ - taught humanity what they knew not - Al-Alaq - 96:5</div>
               
               <div className="pt-4">
                 <Button className="button-glow bg-cosmic-purple hover:bg-cosmic-purple/90">
