@@ -1,12 +1,29 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React, { useEffect } from 'react';
+import NavBar from '@/components/NavBar';
+import HeroSection from '@/components/HeroSection';
+import AboutSection from '@/components/AboutSection';
+import AuthorSection from '@/components/AuthorSection';
+import FooterSection from '@/components/FooterSection';
+import StarField from '@/components/StarField';
 
 const Index = () => {
+  // Scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-background text-foreground relative overflow-hidden">
+      {/* Background effects */}
+      <StarField />
+      
+      {/* Content */}
+      <NavBar />
+      <HeroSection />
+      <AboutSection />
+      <AuthorSection />
+      <FooterSection />
     </div>
   );
 };
