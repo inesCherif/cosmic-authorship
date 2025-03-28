@@ -35,9 +35,10 @@ const AuthorSection: React.FC = () => {
                 About the Author
               </h2>
               
-              <p className="text-foreground/80 leading-relaxed">Ines Cherif is an aspiring engineer and computer science student with a strong foundation in web development and problem-solving. With her passion for both technology and learning, she combines her technical expertise in full-stack development with her drive to master complex mathematical concepts, particularly in areas like linear algebra and networking.</p>
+              <p className="text-foreground/80 leading-relaxed">
+            </p>
               
-              <p className="text-foreground/80 leading-relaxed">Her journey as a self-motivated learner has been marked by an ongoing commitment to improving her skills in coding, algorithm design, and practical applications, while also embracing the interdisciplinary nature of technology. Through her work, Ines seeks to bridge the gap between theory and real-world problem-solving, always striving for simplicity and clarity in her approach to complex challenges.</p>
+              <p className="text-foreground/80 leading-relaxed">Ines Cherif is an aspiring computer science engineer with expertise in web development and problem-solving. Passionate about both technology and learning, she focuses on mastering complex mathematical concepts and algorithm design, aiming to bridge the gap between theory and real-world applications with clarity and simplicity.</p>
               
               <div className="border-l-4 border-cosmic-purple/50 pl-4 py-2 italic text-foreground/70">Knowledge is an infinite ocean, and the more you dive, the more you discover. As the Quran says:   عَلَّمَ ٱلْإِنسَـٰنَ مَا لَمْ يَعْلَمْ ٥ - taught humanity what they knew not (Al-Alaq 96:5). This is the foundation of my pursuit: always seeking new knowledge and using it to better understand the world."</div>
               
