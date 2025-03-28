@@ -1,8 +1,6 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import ParticleEffect from './ParticleEffect';
-
 const AuthorSection: React.FC = () => {
   return <section id="author" className="py-24 relative">
       <ParticleEffect />
@@ -20,13 +18,9 @@ const AuthorSection: React.FC = () => {
                         -1.8,-70.7,-18.6,-64.2,-31C-57.7,-43.4,-42.9,-51.5,-29.5,-57.3C-16.1,-63,-8,-66.6,3.6,-71.9C15.3,-77.3,30.5,-84.6,42.7,-79.9C54.8,-75.2,72.5,-58.3,42.7,-62.9Z" transform="translate(100 100)" />
                       </svg>
                       <div className="relative z-10 text-center p-6">
-                        <img 
-                          src="/lovable-uploads/d24e50ae-bac2-458d-a20c-a84014b1a46e.png" 
-                          alt="Ines Cherif" 
-                          className="w-full h-auto rounded-full"
-                        />
+                        <img src="/lovable-uploads/d24e50ae-bac2-458d-a20c-a84014b1a46e.png" alt="Ines Cherif" className="w-full h-auto rounded-full" />
                         <h3 className="font-display text-xl mt-4">Ines Cherif</h3>
-                        <p className="text-sm text-foreground/60 mt-1">Researcher & Author</p>
+                        <p className="text-sm text-foreground/60 mt-1"></p>
                       </div>
                     </div>
                   </div>
