@@ -1,17 +1,12 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
-
 const NavBar: React.FC = () => {
-  return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-cosmic-purple/10">
+  return <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-cosmic-purple/10">
       <div className="container mx-auto flex items-center justify-between py-4">
         <div className="flex items-center gap-2">
-          <span className="text-xl font-display font-bold text-gradient">
-            ISAHM
-          </span>
+          <span className="text-xl font-display font-bold text-gradient">YAQEEN</span>
         </div>
         
         <div className="flex items-center gap-4">
@@ -32,8 +27,6 @@ const NavBar: React.FC = () => {
           </Button>
         </div>
       </div>
-    </nav>
-  );
+    </nav>;
 };
-
 export default NavBar;
