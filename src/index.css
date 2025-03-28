@@ -100,7 +100,7 @@
 
 .cosmic-backdrop::before {
   content: '';
-  @apply absolute inset-0 bg-[url('/lovable-uploads/aab924bf-c9bd-46dd-8a5a-82e7b0b3e5ef.png')] bg-no-repeat bg-right bg-contain opacity-40 z-0;
+  @apply absolute inset-0 bg-[url('/lovable-uploads/68d9fd94-5556-48eb-82b1-6f7fcee23633.png')] bg-no-repeat bg-right bg-contain opacity-40 z-0;
 }
 
 .cosmic-backdrop::after {

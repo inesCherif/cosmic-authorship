@@ -58,7 +58,7 @@ const HeroSection: React.FC = () => {
             <div className="relative w-full aspect-square max-w-md mx-auto cosmic-grid rounded-full overflow-hidden p-1">
               <div className="absolute inset-2 rounded-full overflow-hidden bg-cosmic-deep/80 backdrop-blur">
                 <img
-                  src="/lovable-uploads/aab924bf-c9bd-46dd-8a5a-82e7b0b3e5ef.png"
+                  src="/lovable-uploads/68d9fd94-5556-48eb-82b1-6f7fcee23633.png"
                   alt="The Probability of Islam"
                   className="w-full h-full object-cover opacity-90"
                 />
