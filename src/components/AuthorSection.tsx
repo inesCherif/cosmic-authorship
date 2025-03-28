@@ -1,11 +1,8 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import ParticleEffect from './ParticleEffect';
-
 const AuthorSection: React.FC = () => {
-  return (
-    <section id="author" className="py-24 relative">
+  return <section id="author" className="py-24 relative">
       <ParticleEffect />
       
       <div className="container mx-auto px-4 md:px-8 relative z-10">
@@ -38,24 +35,11 @@ const AuthorSection: React.FC = () => {
                 About the Author
               </h2>
               
-              <p className="text-foreground/80 leading-relaxed">
-                Ines Cherif is a pioneering researcher at the intersection of computational 
-                mathematics and religious studies. With a background in both computer science 
-                and Islamic theology, she brings a unique perspective to the study of 
-                religious questions through the lens of probability theory.
-              </p>
+              <p className="text-foreground/80 leading-relaxed">Ines Cherif is an aspiring engineer and computer science student with a strong foundation in web development and problem-solving. With her passion for both technology and learning, she combines her technical expertise in full-stack development with her drive to master complex mathematical concepts, particularly in areas like linear algebra and networking.</p>
               
-              <p className="text-foreground/80 leading-relaxed">
-                Her groundbreaking work applies Monte Carlo simulation techniques to 
-                evaluate theological propositions, creating a framework for dialogue 
-                between scientific methodology and religious inquiry.
-              </p>
+              <p className="text-foreground/80 leading-relaxed">Her journey as a self-motivated learner has been marked by an ongoing commitment to improving her skills in coding, algorithm design, and practical applications, while also embracing the interdisciplinary nature of technology. Through her work, Ines seeks to bridge the gap between theory and real-world problem-solving, always striving for simplicity and clarity in her approach to complex challenges.</p>
               
-              <div className="border-l-4 border-cosmic-purple/50 pl-4 py-2 italic text-foreground/70">
-                "Mathematics offers us a universal language to explore questions that 
-                transcend cultural and religious boundaries. Through simulation, we can 
-                model the probabilistic nature of belief itself."
-              </div>
+              <div className="border-l-4 border-cosmic-purple/50 pl-4 py-2 italic text-foreground/70">Knowledge is an infinite ocean, and the more you dive, the more you discover. As the Quran says:  </div>
               
               <div className="pt-4">
                 <Button className="button-glow bg-cosmic-purple hover:bg-cosmic-purple/90">
@@ -66,8 +50,6 @@ const AuthorSection: React.FC = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default AuthorSection;
